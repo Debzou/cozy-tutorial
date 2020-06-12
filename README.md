@@ -90,6 +90,8 @@ async function storeData(documents) {
 }
 ```
 
+#### more information
+https://docs.cozy.io/en/tutorials/konnector/
 
 
  
