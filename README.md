@@ -44,8 +44,9 @@ if you want get login and password just go to index.js and call field.login and 
 
 #### authenticate
 
-if you want to identify yourself, it is preferable to use request-promise. 
 An example is given on my github: https://github.com/Debzou/cozy-konnector-750g/blob/master/src/index.js
+
+if you want to identify yourself, it is preferable to use the request-promise. 
 ```js
 async function authenticate(fields) {
   const authRequest = {
@@ -82,6 +83,11 @@ To fill in the request-pomise information you just have to open a developer tool
 save your data in a doctype. 
 
 ```js
+async function storeData(documents) {
+  hydrateAndFilter(documents, 'io.cozy.recipes', {
+    keys: ['recipes']
+  }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.recipes'))
+}
 ```
 
 
