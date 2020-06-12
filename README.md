@@ -1,6 +1,6 @@
 # cozy-tutorial
 
-## summary
+ pushpin ## summary
 
 - cozy-konnector 
   - save data
