@@ -90,6 +90,9 @@ async function storeData(documents) {
 }
 ```
 
+check if data is saving ? 
+go in gui couchDB : http://localhost:5984/_utils/
+
 #### more information
 https://docs.cozy.io/en/tutorials/konnector/
 
