@@ -1,2 +1,8 @@
 # cozy-tutorial
- creation of a tutorial to make a cozy application, recover data from a connector, save data under cozy
+
+- create a cozy-konnector
+- cozy-konnector : save data 
+- couchdb
+- launch cozy
+- make a simple app cozy
+- gather data 
