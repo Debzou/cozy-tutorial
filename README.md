@@ -1,4 +1,4 @@
-# cozy-tutorial
+# :whale: cozy-tutorial
 
 ## :pushpin: summary
 
