@@ -80,7 +80,7 @@ To fill in the request-pomise information you just have to open a developer tool
 
 #### save data
 
-save your data in a doctype. 
+doctype 
 
 ```js
 async function storeData(documents) {
@@ -89,6 +89,8 @@ async function storeData(documents) {
   }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.recipes'))
 }
 ```
+
+file
 
 
  
