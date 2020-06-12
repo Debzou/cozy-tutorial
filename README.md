@@ -17,10 +17,12 @@
 template cozy-konnector :
 https://github.com/konnectors/cozy-konnector-template 
 
-```{bash}
-git clone https://github.com/konnectors/cozy-konnector-template.git
-cd cozy-konnector-template
-yarn standalone
+```sh
+git clone https://github.com/konnectors/cozy-konnector-template cozy-konnector-newservice
+cd cozy-konnector-newservice
+rm -rf .git
+git init
+yarn install # or npm install
 ```
 #### general
 
@@ -28,7 +30,7 @@ The script for your connector can be found in src/index.js. You can delete the f
 
 create a konnector-dev-config.json at the root of the project 
 example :
-```{json}
+```json
 {
     "COZY_URL": "http://cozy.tools:8080",
     "fields": {
@@ -48,6 +50,9 @@ To fill in the request-pomise information you just have to open a developer tool
 #### save data
 
 save your data in a doctype. 
+
+```js
+```
 
 
  
