@@ -76,7 +76,7 @@ async function authenticate(fields) {
 }
 ```
 
-To fill in the request-pomise information you just have to open a developer tool and look in the network part. 
+To fill in option of request-pomise information you just have to open a developer tool and look in the network part. 
 
 #### save data
 
@@ -90,7 +90,6 @@ async function storeData(documents) {
 }
 ```
 
-file
 
 
  
