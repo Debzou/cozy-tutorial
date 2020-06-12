@@ -1,8 +1,8 @@
 # cozy-tutorial
 
-- create a cozy-konnector
-- cozy-konnector : save data 
-- couchdb
-- launch cozy
-- make a simple app cozy
-- gather data 
+
+- cozy-konnector 
+  - jhj
+- cozy
+- app cozy
+
