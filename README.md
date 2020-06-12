@@ -94,7 +94,12 @@ async function storeData(documents) {
 ```
 
 check if data is saving ? 
-go in gui couchDB : http://localhost:5984/_utils/
+go in gui couchDB :
+http://domain:5984/_utils/
+not working in localhost
+.......
+:octocat: not yet :octocat:
+.......
 
 #### more information
 https://docs.cozy.io/en/tutorials/konnector/
