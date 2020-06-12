@@ -1,8 +1,12 @@
 # cozy-tutorial
 
+## summary
 
 - cozy-konnector 
-  - jhj
+  - save data
 - cozy
-- app cozy
+  - lauch container
+  - couchdb and view data
+- add an application in cozy
+ 
 
