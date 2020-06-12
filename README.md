@@ -44,7 +44,37 @@ if you want get login and password just go to index.js and call field.login and 
 
 #### authenticate
 
-if you want to identify yourself, it is preferable to use request-promise. An example is given on my github: https://github.com/Debzou/cozy-konnector-750g/blob/master/src/index.js 
+if you want to identify yourself, it is preferable to use request-promise. 
+An example is given on my github: https://github.com/Debzou/cozy-konnector-750g/blob/master/src/index.js
+```js
+async function authenticate(fields) {
+  const authRequest = {
+    method: 'POST',
+    uri: `${baseurl}/login_check`,
+    jar: cookiejar,
+    headers: {
+      Host: 'www.750g.com',
+      'Content-Type': 'application/x-www-form-urlencoded'
+    },
+    form: {
+      email: fields.login,
+      password: fields.password,
+      redirect_url: '',
+      client_id: ''
+    },
+    followAllRedirects: true
+  }
+  // request
+  const authRequestLength = Buffer.byteLength(qs.stringify(authRequest.form))
+  authRequest.headers['Content-Length'] = authRequestLength
+  return rp(authRequest)
+    .catch(() => {
+      throw new Error(errors.LOGIN_FAILED)
+    })
+    .then(html => getName(html))
+}
+```
+
 To fill in the request-pomise information you just have to open a developer tool and look in the network part. 
 
 #### save data
