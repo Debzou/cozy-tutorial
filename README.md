@@ -96,10 +96,18 @@ async function storeData(documents) {
   }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
 }
 ```
-
+##### mode dev
+```sh
+yarn standalone
+```
 your data appear in Data/importedData.json
-if your konnector is connected to the cozy, you can check if couchDb contains your data
-```bs
+
+##### Konnector is connected to the cozy
+```sh
+yarn start
+```
+You can check if couchDB contains your data
+```sh
 curl -X GET 'http:/127.0.0.1:5984/io.cozy.namedoctype/_all_docs'
 ```
 
