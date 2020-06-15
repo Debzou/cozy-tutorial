@@ -7,10 +7,14 @@
   - general
   - authenticate
   - save data
+- couchdb
+  - general
+  - POST data without konnector
 - cozy
-  - lauch container
-  - couchdb and view data
-- add an application in cozy
+  - lauch container (version simple)
+  - lauch conatainer with volumes
+  - add an application in cozy ( react and natif )
+  - gather data
  
 ## :link: cozy-konnector
 #### create konnector
