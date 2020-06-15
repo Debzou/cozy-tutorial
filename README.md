@@ -100,6 +100,8 @@ async function storeData(documents) {
 check if data is saving ? 
 go in gui couchDB : http://domain:5984/_utils/
 
+# brouillon
+
 not working in localhost
 
 .......
@@ -111,6 +113,9 @@ https://docs.cozy.io/en/tutorials/konnector/
 
 
  
+ #### couchdb
+ 
+si le nom d'une database contient un / remplace par %2F
  
  
  
