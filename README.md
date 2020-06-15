@@ -91,10 +91,16 @@ doctype
 
 ```js
 async function storeData(documents) {
-  hydrateAndFilter(documents, 'io.cozy.recipes', {
+  hydrateAndFilter(documents, 'io.cozy.namedoctype', {
     keys: ['recipes']
-  }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.recipes'))
+  }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
 }
+```
+
+your data appear in Data/importedData.json
+if your konnector is connected to the cozy, you can check if couchDb contains your data
+```bs
+curl -X GET 'http:/127.0.0.1:5984/io.cozy.namedoctype/_all_docs'
 ```
 
 check if data is saving ? 
