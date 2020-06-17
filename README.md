@@ -96,23 +96,33 @@ async function storeData(documents) {
   }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
 }
 ```
-##### mode dev
+##### mode alone
 ```sh
 yarn standalone
 ```
+It can be handy to run a konnector without inserting the data in a cozy and tested your Konnector without cozy.
 your data appear in Data/importedData.json
 
-##### Konnector is connected to the cozy
+##### mode dev
 ```sh
-yarn start
+yarn dev
 ```
+This command will register your konnector as an OAuth application to the cozy-stack and then set the COZY_CREDENTIALS and COZY_FIELDS environment variable. By default, the cozy-stack is expected to run at http://cozy.tools:8080. If this is not your case, update the COZY_URL field in /konnector-dev-config.json.
+
 You can check if couchDB contains your data
 ```sh
 curl -X GET 'http:/127.0.0.1:5984/io.cozy.namedoctype/_all_docs'
 ```
 
-check if data is saving ? 
-go in gui couchDB : http://domain:5984/_utils/
+##### check the imported data 
+gui couchDB 
+http://localhost:5984/_utils
+
+On the serveur :
+``sh
+curl -X GET "http:/127.0.0.1:5984/_All_dbs' 
+``
+the doctype should be appear in the list
 
 # brouillon
 
