@@ -8,7 +8,7 @@
   - [Authenticate](https://github.com/Debzou/cozy-tutorial#Authenticate)
   - [Save data](https://github.com/Debzou/cozy-tutorial#Save-data)
   - [Launch a konnector](https://github.com/Debzou/cozy-tutorial#Launch-a-konnector)
-- [couchdb](https://github.com/Debzou/cozy-tutorial#)
+- [CouchDB](https://github.com/Debzou/cozy-tutorial#space_invader-CouchDB)
   - general
   - POST data without konnector
 - cozy
