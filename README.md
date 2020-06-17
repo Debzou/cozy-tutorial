@@ -130,7 +130,11 @@ Doctype should be appear in the list
 ## :space_invader: CouchDB
 
 Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
+
 Gui interface : http://127.0.0.1:5984/_utils/ 
+
+#### POST 
+
 
 
 # brouillon
