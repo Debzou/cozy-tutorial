@@ -134,8 +134,10 @@ Your konnector is linked with your cozy
 ```sh
 yarn dev
 ```
+
 This command will register your konnector as an OAuth application to the cozy-stack and then set the COZY_CREDENTIALS and COZY_FIELDS environment variable. By default, the cozy-stack is expected to run at http://cozy.tools:8080. If it's is not your case, update the COZY_URL field in /konnector-dev-config.json.
 
+Your browser will open to ask for permission to modify your data on the cozy server.
 
 ```sh
 curl -X GET http://127.0.0.1:5984/_all_dbs
