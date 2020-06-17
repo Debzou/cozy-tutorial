@@ -36,7 +36,7 @@ example :
 ```
 if you want get login and password just go to index.js and call field.login and field.password
 
-#### create konnector
+#### Create konnector
 template cozy-konnector :
 https://github.com/konnectors/cozy-konnector-template 
 
@@ -49,7 +49,7 @@ yarn install # or npm install
 ```
 
 
-#### authenticate
+#### Authenticate
 
 An example is given on my github: https://github.com/Debzou/cozy-konnector-750g/blob/master/src/index.js
 
@@ -84,11 +84,11 @@ async function authenticate(fields) {
 ```
 
 To fill in option of request-pomise information you just have to open a developer tool and look in the network part. 
-#### scrape
+#### Scrape
 
 :octocat: not yet :octocat:
 
-#### save data
+#### Save data
 
 doctype 
 
