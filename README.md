@@ -7,6 +7,7 @@
   - [Create konnector](https://github.com/Debzou/cozy-tutorial#Create-konnector)
   - [Authenticate](https://github.com/Debzou/cozy-tutorial#Authenticate)
   - [Save data](https://github.com/Debzou/cozy-tutorial#Save-data)
+  - [Launch a konnector](https://github.com/Debzou/cozy-tutorial#Launch-a-konnector)
 - couchdb
   - general
   - POST data without konnector
@@ -99,6 +100,7 @@ async function storeData(documents) {
   }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
 }
 ```
+#### launch a konnector
 ##### mode alone
 Tested your Konnector without cozy
 ```sh
