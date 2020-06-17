@@ -2,7 +2,7 @@
 
 ## :pushpin: summary
 
-- cozy-konnector
+- [cozy-konnector](https://github.com/Debzou/cozy-tutorial/edit/master/README.md)
   - create konnector
   - general
   - authenticate
