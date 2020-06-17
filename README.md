@@ -35,6 +35,11 @@ example :
  }
  
 ```
+
+install package :
+```sh
+yarn install
+```
 if you want get login and password just go to index.js and call field.login and field.password
 
 #### Create konnector
@@ -95,9 +100,22 @@ doctype
 async function storeData(documents) {
   hydrateAndFilter(documents, 'io.cozy.namedoctype', {
     keys: ['recipes']
-  }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
+  }).then(filteredDocuments => addData(filteredDocuments, 'namedoctype'))
 }
 ```
+:warning: When you use dev mode, you have to add a permission in ./manifest.konnector 
+your connector is asking the cozy for permission to create and modify the doctype
+
+```js
+"permissions": {
+    "permissionname":{
+      "type":"namedoctype"
+    },
+    "otherpermssion":{
+    }
+}
+```
+
 #### Launch a konnector
 ###### mode alone
 Tested your Konnector without cozy
@@ -109,6 +127,7 @@ Your data appear in Data/importedData.json
 
 ###### mode dev
 Your konnector is linked with your cozy
+:warning: Remove the token for other permission test
 ```sh
 yarn dev
 ```
