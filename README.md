@@ -120,7 +120,7 @@ http://localhost:5984/_utils
 
 On the serveur :
 ``sh
-curl -X GET "http:/127.0.0.1:5984/_All_dbs' 
+curl -X GET "http:/127.0.0.1:5984/_All_dbs"
 ``
 the doctype should be appear in the list
 
