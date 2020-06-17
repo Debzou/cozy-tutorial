@@ -121,13 +121,16 @@ curl -X GET 'http:/127.0.0.1:5984/namedoctype/_all_docs'
 List all document in your doctype
 
 
-``sh
+```sh
 curl -X GET "http:/127.0.0.1:5984/_All_dbs"
-``
+```
 
 Doctype should be appear in the list
 
 ## :space_invader: CouchDB
+
+Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
+Gui interface : http://127.0.0.1:5984/_utils/ 
 
 
 # brouillon
@@ -144,7 +147,7 @@ https://docs.cozy.io/en/tutorials/konnector/
 
  
  #### couchdb
- 
+
 si le nom d'une database contient un / remplace par %2F
  
  
