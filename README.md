@@ -16,7 +16,7 @@
   - add an application in cozy ( react and natif )
   - gather data
  
-## :link: cozy-konnector
+## :space_invader: cozy-konnector
 
 #### general
 
