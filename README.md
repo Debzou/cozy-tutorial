@@ -118,7 +118,7 @@ This command will register your konnector as an OAuth application to the cozy-st
 
 
 ```sh
-curl -X GET 'http:/127.0.0.1:5984/io.cozy.namedoctype/_all_docs'
+curl -X GET 'http:/127.0.0.1:5984/namedoctype/_all_docs'
 ```
 List all document in your doctype
 
