@@ -106,8 +106,8 @@ Tested your Konnector without cozy
 ```sh
 yarn standalone
 ```
-It can be handy to run a konnector without inserting the data in a cozy .
-your data appear in Data/importedData.json
+It can be handy to run a konnector without inserting the data in a cozy.
+Your data appear in Data/importedData.json
 
 ###### mode dev
 Your konnector is linked with your cozy
