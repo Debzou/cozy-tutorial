@@ -138,13 +138,7 @@ This command will register your konnector as an OAuth application to the cozy-st
 
 
 ```sh
-curl -X GET 'http:/127.0.0.1:5984/namedoctype/_all_docs'
-```
-List all document in your doctype
-
-
-```sh
-curl -X GET "http:/127.0.0.1:5984/_All_dbs"
+curl -X GET http://127.0.0.1:5984/_all_dbs
 ```
 
 Doctype should be appear in the list
@@ -154,10 +148,6 @@ Doctype should be appear in the list
 Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
 
 Gui interface : http://127.0.0.1:5984/_utils/ 
-
-#### POST 
-
-
 
 # brouillon
 
