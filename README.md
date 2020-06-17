@@ -104,6 +104,7 @@ async function storeData(documents) {
 }
 ```
 :warning: When you use dev mode, you have to add a permission in ./manifest.konnector 
+
 your connector is asking the cozy for permission to create and modify the doctype
 
 ```js
@@ -127,7 +128,9 @@ Your data appear in Data/importedData.json
 
 ###### mode dev
 Your konnector is linked with your cozy
+
 :warning: Remove the token for other permission test
+
 ```sh
 yarn dev
 ```
