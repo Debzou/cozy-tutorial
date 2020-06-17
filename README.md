@@ -120,7 +120,6 @@ curl -X GET 'http:/127.0.0.1:5984/io.cozy.namedoctype/_all_docs'
 ```
 List all document in your doctype
 
-Or 
 
 ``sh
 curl -X GET "http:/127.0.0.1:5984/_All_dbs"
