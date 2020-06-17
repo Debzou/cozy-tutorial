@@ -3,10 +3,10 @@
 ## :pushpin: summary
 
 - [cozy-konnector](https://github.com/Debzou/cozy-tutorial#link-cozy-konnector)
-  - create konnector
-  - general
-  - authenticate
-  - save data
+  - [general](https://github.com/Debzou/cozy-tutorial#general)
+  - [create konnector](https://github.com/Debzou/cozy-tutorial#create-konnector)
+  - [authenticate](https://github.com/Debzou/cozy-tutorial#authenticate)
+  - [save data](https://github.com/Debzou/cozy-tutorial#save-data)
 - couchdb
   - general
   - POST data without konnector
@@ -17,17 +17,7 @@
   - gather data
  
 ## :link: cozy-konnector
-#### create konnector
-template cozy-konnector :
-https://github.com/konnectors/cozy-konnector-template 
 
-```sh
-git clone https://github.com/konnectors/cozy-konnector-template cozy-konnector-newservice
-cd cozy-konnector-newservice
-rm -rf .git
-git init
-yarn install # or npm install
-```
 #### general
 
 The script for your connector can be found in src/index.js. You can delete the file and create it from scratch. Here you will find the link to everything about cozy-konnector-libs functions: https://github.com/konnectors/libs/blob/master/packages/cozy-konnector-libs/docs/api.md
@@ -45,6 +35,19 @@ example :
  
 ```
 if you want get login and password just go to index.js and call field.login and field.password
+
+#### create konnector
+template cozy-konnector :
+https://github.com/konnectors/cozy-konnector-template 
+
+```sh
+git clone https://github.com/konnectors/cozy-konnector-template cozy-konnector-newservice
+cd cozy-konnector-newservice
+rm -rf .git
+git init
+yarn install # or npm install
+```
+
 
 #### authenticate
 
