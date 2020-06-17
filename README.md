@@ -100,8 +100,8 @@ async function storeData(documents) {
   }).then(filteredDocuments => addData(filteredDocuments, 'io.cozy.namedoctype'))
 }
 ```
-#### launch a konnector
-##### mode alone
+#### Launch a konnector
+###### mode alone
 Tested your Konnector without cozy
 ```sh
 yarn standalone
@@ -109,7 +109,7 @@ yarn standalone
 It can be handy to run a konnector without inserting the data in a cozy .
 your data appear in Data/importedData.json
 
-##### mode dev
+###### mode dev
 Your konnector is linked with your cozy
 ```sh
 yarn dev
