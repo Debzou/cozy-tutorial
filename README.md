@@ -8,7 +8,7 @@
   - [Authenticate](https://github.com/Debzou/cozy-tutorial#Authenticate)
   - [Save data](https://github.com/Debzou/cozy-tutorial#Save-data)
   - [Launch a konnector](https://github.com/Debzou/cozy-tutorial#Launch-a-konnector)
-- couchdb
+- [couchdb](https://github.com/Debzou/cozy-tutorial#)
   - general
   - POST data without konnector
 - cozy
@@ -127,7 +127,7 @@ curl -X GET "http:/127.0.0.1:5984/_All_dbs"
 
 Doctype should be appear in the list
 
-
+## :space_invader: CouchDB
 
 
 # brouillon
