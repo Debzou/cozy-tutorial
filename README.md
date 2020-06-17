@@ -2,11 +2,11 @@
 
 ## :pushpin: summary
 
-- [cozy-konnector](https://github.com/Debzou/cozy-tutorial#link-cozy-konnector)
-  - [general](https://github.com/Debzou/cozy-tutorial#general)
-  - [create konnector](https://github.com/Debzou/cozy-tutorial#create-konnector)
-  - [authenticate](https://github.com/Debzou/cozy-tutorial#authenticate)
-  - [save data](https://github.com/Debzou/cozy-tutorial#save-data)
+- [Cozy-konnector](https://github.com/Debzou/cozy-tutorial#space_invader-Cozy-konnector)
+  - [General](https://github.com/Debzou/cozy-tutorial#General)
+  - [Create konnector](https://github.com/Debzou/cozy-tutorial#Create-konnector)
+  - [Authenticate](https://github.com/Debzou/cozy-tutorial#Authenticate)
+  - [Save data](https://github.com/Debzou/cozy-tutorial#Save-data)
 - couchdb
   - general
   - POST data without konnector
@@ -16,9 +16,9 @@
   - add an application in cozy ( react and natif )
   - gather data
  
-## :space_invader: cozy-konnector
+## :space_invader: Cozy-konnector
 
-#### general
+#### General
 
 The script for your connector can be found in src/index.js. You can delete the file and create it from scratch. Here you will find the link to everything about cozy-konnector-libs functions: https://github.com/konnectors/libs/blob/master/packages/cozy-konnector-libs/docs/api.md
 
