@@ -97,9 +97,7 @@ doctype
 
 ```js
 async function storeData(documents) {
-  hydrateAndFilter(documents, 'io.cozy.namedoctype', {
-    keys: ['recipes']
-  }).then(filteredDocuments => addData(filteredDocuments, 'namedoctype'))
+ addData(documents, 'namedoctype'))
 }
 ```
 :warning: When you use dev mode, you have to add a permission in ./manifest.konnector 
