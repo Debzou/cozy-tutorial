@@ -10,11 +10,11 @@
   - [Launch a konnector](https://github.com/Debzou/cozy-tutorial#Launch-a-konnector)
   - [Deploy a konnector](https://github.com/Debzou/cozy-tutorial#Deploy-a-konnector)
 - [CouchDB](https://github.com/Debzou/cozy-tutorial#space_invader-CouchDB)
-- cozy
-  - lauch container (version simple)
-  - lauch conatainer with volumes
-  - add an application in cozy ( react and natif )
-  - gather data
+- [Cozy](https://github.com/Debzou/cozy-tutorial#space_invader-Cozy)
+  - [Lauch container](https://github.com/Debzou/cozy-tutorial#)
+  - [Lauch conatainer with volumes](https://github.com/Debzou/cozy-tutorial#)
+  - [Add an application in cozy](https://github.com/Debzou/cozy-tutorial#)
+  - [Gather data](https://github.com/Debzou/cozy-tutorial#)
  
 ## :space_invader: Cozy-konnector
 
