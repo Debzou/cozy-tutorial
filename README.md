@@ -169,6 +169,8 @@ Gui interface : http://127.0.0.1:5984/_utils/
 
 * If a database name has a / , it should be replaced by %2F *
 
+## :space_invader: Cozy
+
 
  
  
