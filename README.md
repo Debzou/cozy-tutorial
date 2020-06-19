@@ -145,6 +145,18 @@ curl -X GET http://127.0.0.1:5984/_all_dbs
 
 Doctype should be appear in the list
 
+##### deploy a konnector
+
+The package.json file from cozy-konnector-template gives you the commands to do this : yarn build and yarn deploy but the last one needs to be configured in package.json
+
+
+changed the configuration of package.json
+remplace $npm_package_repository_url such as :
+```json
+"deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-https://github.com/YourGithub.git}",
+```
+
+
 ## :space_invader: CouchDB
 
 Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
