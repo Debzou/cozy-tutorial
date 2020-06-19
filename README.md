@@ -10,8 +10,6 @@
   - [Launch a konnector](https://github.com/Debzou/cozy-tutorial#Launch-a-konnector)
   - [Deploy a konnector](https://github.com/Debzou/cozy-tutorial#Deploy-a-konnector)
 - [CouchDB](https://github.com/Debzou/cozy-tutorial#space_invader-CouchDB)
-  - general
-  - POST data without konnector
 - cozy
   - lauch container (version simple)
   - lauch conatainer with volumes
@@ -158,6 +156,12 @@ Remplace $npm_package_repository_url such as :
 "deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-https://github.com/YourGithub.git}",
 ```
 
+In the ./manifest.konnector.
+It is really important to change the name of the konnector before the build and deploy it.
+
+#### more information
+https://docs.cozy.io/en/tutorials/konnector/
+
 
 ## :space_invader: CouchDB
 
@@ -165,23 +169,9 @@ Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
 
 Gui interface : http://127.0.0.1:5984/_utils/ 
 
-# brouillon
-
-not working in localhost
-
-.......
-:octocat: not yet :octocat:
-.......
-
-#### more information
-https://docs.cozy.io/en/tutorials/konnector/
+* If a database name has a / , it should be replaced by %2F *
 
 
- 
- #### couchdb
-
-si le nom d'une database contient un / remplace par %2F
- 
  
  
  
