@@ -173,25 +173,25 @@ Gui interface : http://127.0.0.1:5984/_utils/
 
 #### Command line to know
 
-Download a cozy image with docker 
+##### Download a cozy image with docker 
 
 ```sh
 docker pull cozy/cozy-app-dev
 ```
 
-Launch a cozy 
+##### Launch a cozy 
 
 Simple version
 
 ```sh
 ```
 
-with volumes
+With volumes
 
 ```sh
 ```
 
-Display running docker & Stop this docker 
+##### Display running docker & Stop this docker 
 ```sh
 sudo docker ps
 sudo docker stop id-docker
