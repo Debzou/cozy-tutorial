@@ -11,9 +11,8 @@
   - [Deploy a konnector](https://github.com/Debzou/cozy-tutorial#Deploy-a-konnector)
 - [CouchDB](https://github.com/Debzou/cozy-tutorial#space_invader-CouchDB)
 - [Cozy](https://github.com/Debzou/cozy-tutorial#space_invader-Cozy)
-  - [Lauch container](https://github.com/Debzou/cozy-tutorial#)
-  - [Lauch conatainer with volumes](https://github.com/Debzou/cozy-tutorial#)
-  - [Add an application in cozy](https://github.com/Debzou/cozy-tutorial#)
+  - [Command line to know](https://github.com/Debzou/cozy-tutorial#Command-line-to-know)
+  - [Add an application in cozy](https://github.com/Debzou/cozy-tutorial#Add-an-application-in-cozy)
   - [Gather data](https://github.com/Debzou/cozy-tutorial#)
  
 ## :space_invader: Cozy-konnector
@@ -22,7 +21,7 @@
 
 The script for your connector can be found in src/index.js. You can delete the file and create it from scratch. Here you will find the link to everything about cozy-konnector-libs functions: https://github.com/konnectors/libs/blob/master/packages/cozy-konnector-libs/docs/api.md
 
-create a konnector-dev-config.json at the root of the project 
+create a konnector-dev-config.json at the root of the project
 example :
 ```json
 {
@@ -39,7 +38,7 @@ install package :
 ```sh
 yarn install
 ```
-if you want get login and password just go to index.js and call field.login and field.password
+
 
 #### Create konnector
 template cozy-konnector :
@@ -93,16 +92,17 @@ To fill in option of request-pomise information you just have to open a develope
 
 #### Save data
 
-doctype 
+save a doctype
 
 ```js
 async function storeData(documents) {
  addData(documents, 'namedoctype'))
 }
 ```
-:warning: When you use dev mode, you have to add a permission in ./manifest.konnector 
+permissions
 
-your connector is asking the cozy for permission to create and modify the doctype
+:warning: When you use dev mode, you have to add a permission in ./manifest.konnector.
+Your connector is asking the cozy for permission to create and modify the doctype
 
 ```js
 "permissions": {
@@ -167,9 +167,37 @@ Official documentation : https://docs.couchdb.org/en/stable/intro/curl.html
 
 Gui interface : http://127.0.0.1:5984/_utils/ 
 
-* If a database name has a / , it should be replaced by %2F *
+:warning: If a database name contains a "/" , it should be replaced by %2F 
 
 ## :space_invader: Cozy
+
+#### Command line to know
+
+Download a cozy image with docker 
+
+```sh
+docker pull cozy/cozy-app-dev
+```
+
+Launch a cozy 
+Simple version
+
+```sh
+```
+
+with volumes
+
+```sh
+```
+
+Display running docker & Stop this docker 
+```sh
+sudo docker ps
+sudo docker stop id-docker
+```
+
+
+
 
 
  
