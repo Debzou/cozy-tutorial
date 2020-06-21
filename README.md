@@ -176,7 +176,7 @@ Gui interface : http://127.0.0.1:5984/_utils/
 ##### Download a cozy image with docker 
 
 ```sh
-docker pull cozy/cozy-app-dev
+sudo docker pull cozy/cozy-app-dev
 ```
 
 ##### Launch a cozy 
@@ -184,14 +184,14 @@ docker pull cozy/cozy-app-dev
 Simple version
 
 ```sh
-docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 cozy/cozy-app-dev 
+sudo docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 cozy/cozy-app-dev 
 ```
 
 With volumes
 
 This command line define the space of your application and the space of your cozy storage. So the data persists over time
 ```sh
-docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 
+sudo docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 
     -v $(pwd)/cozy-app:/data/cozy-app 
     -v $(pwd)/storage:/data/cozy-storage 
     cozy/cozy-app-dev 
@@ -199,10 +199,12 @@ docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025
 
 
 ##### Display running docker & Stop this docker 
+
 ```sh
 sudo docker ps
 sudo docker stop id-docker
 ```
+
 #### Add an application in cozy
 
 #### Gather data
