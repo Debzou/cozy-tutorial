@@ -189,12 +189,14 @@ docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 cozy/cozy-app-dev
 
 With volumes
 
+This command line define the space of your application and the space of your cozy storage. So the data persists over time
 ```sh
 docker run --rm -it -p 8080:8080 -p 5984:5984 -p 8025:8025 
     -v $(pwd)/cozy-app:/data/cozy-app 
     -v $(pwd)/storage:/data/cozy-storage 
     cozy/cozy-app-dev 
 ```
+
 
 ##### Display running docker & Stop this docker 
 ```sh
