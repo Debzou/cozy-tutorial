@@ -34,11 +34,6 @@ example :
  
 ```
 
-install package :
-```sh
-yarn install
-```
-
 
 #### Create konnector
 template cozy-konnector :
