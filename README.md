@@ -13,7 +13,7 @@
 - [Cozy](https://github.com/Debzou/cozy-tutorial#space_invader-Cozy)
   - [Command line to know](https://github.com/Debzou/cozy-tutorial#Command-line-to-know)
   - [Add an application in cozy](https://github.com/Debzou/cozy-tutorial#Add-an-application-in-cozy)
-  - [Gather data](https://github.com/Debzou/cozy-tutorial#)
+  - [Gather data](https://github.com/Debzou/cozy-tutorial#Gather-data)
  
 ## :space_invader: Cozy-konnector
 
@@ -180,6 +180,7 @@ docker pull cozy/cozy-app-dev
 ```
 
 Launch a cozy 
+
 Simple version
 
 ```sh
@@ -195,8 +196,9 @@ Display running docker & Stop this docker
 sudo docker ps
 sudo docker stop id-docker
 ```
+#### Add an application in cozy
 
-
+#### Gather data
 
 
 
