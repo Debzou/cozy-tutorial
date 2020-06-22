@@ -21,6 +21,18 @@
 
 The script for your connector can be found in src/index.js. You can delete the file and create it from scratch. Here you will find the link to everything about cozy-konnector-libs functions: https://github.com/konnectors/libs/blob/master/packages/cozy-konnector-libs/docs/api.md
 
+#### Create konnector
+template cozy-konnector :
+https://github.com/konnectors/cozy-konnector-template 
+
+```sh
+git clone https://github.com/konnectors/cozy-konnector-template cozy-konnector-newservice
+cd cozy-konnector-newservice
+rm -rf .git
+git init
+yarn install # or npm install
+```
+
 create a konnector-dev-config.json at the root of the project
 example :
 ```json
@@ -32,19 +44,6 @@ example :
     }
  }
  
-```
-
-
-#### Create konnector
-template cozy-konnector :
-https://github.com/konnectors/cozy-konnector-template 
-
-```sh
-git clone https://github.com/konnectors/cozy-konnector-template cozy-konnector-newservice
-cd cozy-konnector-newservice
-rm -rf .git
-git init
-yarn install # or npm install
 ```
 
 
