@@ -49,9 +49,11 @@ example :
 
 #### Authenticate
 
+Before scraping information from the site, you must log in.
+
 An example is given on my github: https://github.com/Debzou/cozy-konnector-750g/blob/master/src/index.js
 
-if you want to identify yourself, it is preferable to use the request-promise. 
+if you want to identify yourself on a website, it is preferable to use the request-promise. 
 ```js
 async function authenticate(fields) {
   const authRequest = {
