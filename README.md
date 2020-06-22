@@ -102,7 +102,7 @@ Your connector is asking the cozy for permission to create and modify the doctyp
 
 ```js
 "permissions": {
-    "permissionname":{
+    "permission-name":{
       "type":"namedoctype"
     },
     "otherpermssion":{
@@ -144,10 +144,9 @@ The package.json file from cozy-konnector-template gives you the commands to do 
 
 
 Changed the configuration of package.json.
-
 Remplace $npm_package_repository_url such as :
 ```json
-"deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-https://github.com/YourGithub.git}",
+"deploy": "git-directory-deploy --directory build/ --branch ${DEPLOY_BRANCH:-build} --repo=${DEPLOY_REPOSITORY:-git://github.com/YourGithub.git}",
 ```
 
 In the ./manifest.konnector.
