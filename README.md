@@ -201,8 +201,8 @@ sudo docker stop id-docker
 ```
 
 #### Add an application in cozy
+
 :warning: node 10.21.0
-:warning:yarn 1.22.4
 
 react app 
 ```sh
