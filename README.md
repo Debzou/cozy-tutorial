@@ -12,7 +12,7 @@
 - [CouchDB](https://github.com/Debzou/cozy-tutorial#space_invader-CouchDB)
 - [Cozy](https://github.com/Debzou/cozy-tutorial#space_invader-Cozy)
   - [Command line to know](https://github.com/Debzou/cozy-tutorial#Command-line-to-know)
-  - [Add an application in cozy](https://github.com/Debzou/cozy-tutorial#Add-an-application-in-cozy)
+  - [Create an application in cozy](https://github.com/Debzou/cozy-tutorial#Create-an-application-in-cozy)
   - [Gather data](https://github.com/Debzou/cozy-tutorial#Gather-data)
  
 ## :space_invader: Cozy-konnector
@@ -200,7 +200,7 @@ sudo docker ps
 sudo docker stop id-docker
 ```
 
-#### Add an application in cozy
+#### Create an application in cozy
 
 :warning: node 10.21.0
 
