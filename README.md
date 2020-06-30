@@ -221,8 +221,13 @@ sudo yarn start
 
 #### Gather data
 
+cozy-client
 
+:construction:
 
+In construction
+
+:construction:
  
  
  
